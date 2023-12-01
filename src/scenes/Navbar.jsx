@@ -36,7 +36,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
       define a static string value. NOTE : curly braces would have worked as
       well !  */}
         <div className="flex items-start justify-between mx-auto w-5/6">
-          <h4 className="font-playfair text-3xl font-bold">MA</h4>
+          <h4 className="font-playfair text-3xl font-bold">CH</h4>
 
           {/* { DESKTOP NAV} */}
           {isAboveSmallScreens ? (

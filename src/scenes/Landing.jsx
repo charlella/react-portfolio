@@ -52,23 +52,23 @@ const Landing = ({ setSelectedPage }) => {
         >
           <p className="text-6xl font-playfair z-10 text-center md:text-start">
             {/* {""} for the space ! */}
-            Michaël {""}
+            Charlène {""}
             {/* Note : xs:before:content-brush is used for screens above XS and use the following source :  content => brush (cf: see tailwind.config.js) */}
             <span
               className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush
               before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]"
             >
-              Auger
+              Hoare
             </span>
           </p>
 
           <p className="mt-10 mb-7 text-m text-center md:text-start font-bold">
-            Junior Full Stack React.js/NodeJS Developer
+          Junior Front-end & Mobile Developper (React.js, React Native, iOS)
           </p>
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
             Après une première expérience personnelle de plus de 5 ans à gérer{" "}
             <a
-              href="www.surf-community.fr"
+              href="www.charleneonthebeach.com"
               className="hover:text-red underline text-blue"
             >
               un blog communautaire
@@ -76,14 +76,21 @@ const Landing = ({ setSelectedPage }) => {
             sur Wordpress (<b>HTML, CSS, JS et PHP</b>), j'ai décidé de me
             reconvertir en 2022 avec La Capsule, une formation intensive (+400
             heures) labelisée Grande Ecole du Numérique : "Développeur Fullstack
-            JS web & mobile" (titre RNCP 6 (bac+3/+4)) sur la stack MERN : React
+            JS web & mobile" (titre RNCP 6 (bac+3/+4)) sur la stack MERN : React / React Native
             / Express / MongoDB / Node.
           </p>
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            Actuellement en mission à The Coding Machine, une agence de
-            marketing digital spécialisée pour les éditeurs de logiciels et ESN
-            en B2B, je travaille principalement sur la partie front (React /
-            Redux / Apollo GraphQL) pour un grand compte.
+          Actuellement Développeuse web  
+          <a
+              href="www.charlenehoareau.fr"
+              className="hover:text-red underline text-blue"
+            >
+               freelance
+            </a>{" "}
+          , je me charge du web design ainsi que du développement de sites (sites vitrines, e-commerces) pour des indépendants.
+          </p>
+          <p className="mt-10 mb-7 text-sm text-center md:text-start">
+          J'ai également une forte appétence pour le développement mobile puisque je développe sur mon temps libre ma propre application mobile React Native et je vais intégrer la formation en Développement iOS de l’Apple Foundation Program, organisée par Simplon.co.
           </p>
         </motion.div>
 

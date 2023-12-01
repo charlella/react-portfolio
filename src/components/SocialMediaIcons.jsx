@@ -3,7 +3,7 @@ const SocialMediaIcons = () => {
     <div className="flex justify-center md:justify-start my-10 gap-7">
       <a
         className="hover:opacity-50 transition duration-500"
-        href="https://www.linkedin.com/in/auger-michael/"
+        href="https://www.linkedin.com/in/charl%C3%A8ne-hoareau-0ab5b55b/"
         target="_blank"
         rel="noreferrer" // For older browsers (potential security issues)
       >
@@ -11,20 +11,20 @@ const SocialMediaIcons = () => {
       </a>
       <a
         className="hover:opacity-50 transition duration-500"
-        href="https://github.com/ByronMike/"
+        href="https://github.com/charlella"
         target="_blank"
         rel="noreferrer"
       >
         <img alt="github-link" src="../assets/github.png" />
       </a>
-      <a
+      {/* <a
         className="hover:opacity-50 transition duration-500"
-        href="https://twitter.com/ByronMike_"
+        href="https://twitter.com/"
         target="_blank"
         rel="noreferrer"
       >
         <img alt="twitter-link" src="../assets/twitter.png" />
-      </a>
+      </a> */}
       <a
         className="hover:opacity-50 transition duration-500"
         href="https://open.spotify.com/playlist/2bTY4IUI6BEcOU1GmLlLrP"
