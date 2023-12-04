@@ -1,9 +1,19 @@
+import React, { useEffect, useState } from 'react';
 import SocialMediaIcons from "../components/SocialMediaIcons";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Landing = ({ setSelectedPage }) => {
+  const [gifSrc, setGifSrc] = useState('assets/iphone-image.gif');
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setGifSrc('assets/profile-image.png');
+    }, 2500);
+
+    return () => clearTimeout(timer);
+  }, []); // 
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
   return (
     <section
@@ -19,11 +29,14 @@ const Landing = ({ setSelectedPage }) => {
             className="relative z-0 ml-20 before:absolute before:-top-20 before:-left-20 before:rounded-t-[400px]
             before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-2 before:border-blue before:z-[-1]"
           >
-            <img
+            {/* <img
               alt="profile"
               className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
               src="assets/profile-image.png"
-            />
+            /> */}
+            {/* <img src="assets/iphone-image.gif"/> */}
+            <img src={gifSrc} alt="GIF" />
+
           </div>
         ) : (
           <img
@@ -77,7 +90,7 @@ const Landing = ({ setSelectedPage }) => {
               un blog communautaire
             </a>{" "}
             sur Wordpress (<b>HTML, CSS, JS et PHP</b>), j'ai décidé de me
-            reconvertir en 2022 avec La Capsule, une formation intensive (+400
+            reconvertir en 2023 avec La Capsule, une formation intensive (+400
             heures) labelisée Grande Ecole du Numérique : "Développeur Fullstack
             JS web & mobile" (titre RNCP 6 (bac+3/+4)) sur la stack MERN : React / React Native
             / Express / MongoDB / Node.
