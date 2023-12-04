@@ -78,7 +78,7 @@ const Contact = () => {
             onSubmit={onSubmit}
             // POST method by formsubmit to my mail
             // Replace "XXX" from https://formsubmit.co/XXX by the number provided by mail by formsubmit
-            action="https://formsubmit.co/3ca6e191963e3bc1bc8f2033457ea9ab"
+            action="https://formsubmit.co/c6991165fbf1f918c6f3e4eb32462ea1"
             method="POST"
           >
             <input

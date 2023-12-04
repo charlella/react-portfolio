@@ -50,7 +50,7 @@ function App() {
           <Landing setSelectedPage={setSelectedPage} />
         </motion.div>
       </div>
-      <LineGradient />
+      <LineGradient marginTop="mt-6" />
       <div className="w-5/6 mx-auto md:h-fit ">
         <motion.div
           margin="0 0 -200px 0"

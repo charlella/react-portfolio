@@ -46,16 +46,16 @@ const Testimonials = () => {
         >
           <p className="font-playfair text-6xl">
             “
-            <span className="font-playfair text-xl text-black">Charlène.H</span>
+            <span className="font-playfair text-xl text-black">Michaël A.</span>
           </p>
           <p className="text-justify text-sm">
-            Michaël a réalisé un travail très satisfaisant pour mon site
+            Charlène a réalisé un travail très satisfaisant pour mon site
             WordPress (
-            <a href="www.charleneonthebeach.com">charleneonthebeach.com</a>). Il
-            a été à l'écoute et réactif pour réaliser mon site web en tenant
+            <a href="www.surf-community.com">surf-community.com</a>). Elle
+            a été à l'écoute et réactive pour réaliser mon site web en tenant
             compte de mes besoins et de mes demandes, tout au long du projet. Je
-            recommande vivement tes services à quiconque cherche un développeur
-            web compétent et fiable.
+            recommande vivement tes services à quiconque cherche une développeuse
+            web compétente et fiable.
           </p>
         </motion.div>
 
@@ -71,15 +71,10 @@ const Testimonials = () => {
           }}
         >
           <p className="font-playfair text-6xl">
-            “<span className="font-playfair text-xl text-black">Mathis.C</span>
+            “<span className="font-playfair text-xl text-black">Fabrice J.</span>
           </p>
           <p className="text-justify text-sm">
-            Je recommande fortement Michael pour ses compétences de
-            développement mobile, son professionnalisme et sa capacité à
-            travailler en équipe pour atteindre des objectifs communs. Son
-            expertise sur React Native a été un véritable atout pour notre
-            équipe, et son travail a été d’une grande qualité tout au long du
-            projet.
+          Mademoiselle Charlène HOAREAU a notamment été chargée de missions spécifiques pour notre établissement de santé (…), missions où son autonomie et son implication ont été des plus professionnelles, mettant en évidence des qualités lui permettant d'envisager une carrière professionnelle dans ce secteur d'activité.
           </p>
         </motion.div>
 
@@ -96,15 +91,10 @@ const Testimonials = () => {
         >
           <p className="font-playfair text-6xl">
             “
-            <span className="font-playfair text-xl text-black">Stéphane.C</span>
+            <span className="font-playfair text-xl text-black">Rym I.</span>
           </p>
           <p className="text-justify text-sm">
-            Le travail réalisé par Michael Auger m'a permis de juger de ses
-            qualités de réflexion, de rédaction et d'investigation auprès
-            d'acteurs institutionnels ou financiers. Son goût marqué pour la
-            recherche de nouvelles solutions, ses fortes convictions pour faire
-            avancer les réflexions, son esprit toujours curieux ont été des
-            facteurs clé de réussite.
+          Tu as su garder le cap malgré les difficultés et rebondir sur les opportunités. Ta constance, ton optimisme, ta détermination, ta compétence associés à ta grande gentillesse, sont un exemple pour tous-toutes. J'espère que nous aurons l'occasion de croiser à nouveau nos chemins.
           </p>
         </motion.div>
       </div>

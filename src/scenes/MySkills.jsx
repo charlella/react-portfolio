@@ -26,17 +26,19 @@ const MySkills = () => {
           <LineGradient width="w-1/3" />
           {isAboveXs ? (
             <div>
-              <div className="flex justify-start items-center mt-8">
+                     <div className="flex justify-start items-center mt-8">
                 <p className="font-playfair font-semibold text-lg mr-6 whitespace-nowrap">
-                  Front-end :
+                  Front-end Mobile :
                 </p>
-                <div className="flex flex-col justify-center items-center mx-3 my-3 gap-1">
+                <div className="flex flex-col justify-center items-center my-3 gap-1">
                   <img
-                    className="hover:opacity-50 transition duration-500 h-7 w-8"
-                    alt="react-icon"
-                    src="../assets/react-icon.png"
+                    className="contrast-200 hover:opacity-50 transition duration-500 h-7 w-8"
+                    alt="swift-icon"
+                    src="../assets/swift-icon.png"
                   />
-                  <p>React</p>
+                  <div className="flex flex-row justify-center w-28">
+                    <p>Swift</p>
+                  </div>
                 </div>
                 <div className="flex flex-col justify-center items-center my-3 gap-1">
                   <img
@@ -48,6 +50,21 @@ const MySkills = () => {
                     <p>React Native</p>
                   </div>
                 </div>
+                
+              </div>
+              <div className="flex justify-start items-center mt-8">
+                <p className="font-playfair font-semibold text-lg mr-6 whitespace-nowrap">
+                  Front-end Web :
+                </p>
+                <div className="flex flex-col justify-center items-center mx-3 my-3 gap-1">
+                  <img
+                    className="hover:opacity-50 transition duration-500 h-7 w-8"
+                    alt="react-icon"
+                    src="../assets/react-icon.png"
+                  />
+                  <p>React</p>
+                </div>
+                
                 <div className="flex flex-col justify-center items-center mx-3 my-3 gap-1">
                   <img
                     className="hover:opacity-50 transition duration-500 h-8 w-9"
@@ -64,14 +81,14 @@ const MySkills = () => {
                   />
                   <p>Redux</p>
                 </div>
-                <div className="flex flex-col justify-center items-center mx-3 my-3 gap-1">
+                {/* <div className="flex flex-col justify-center items-center mx-3 my-3 gap-1">
                   <img
                     className="hover:opacity-50 transition duration-500 h-7 w-8"
                     alt="graphql-icon"
                     src="../assets/graphql-logo.png"
                   />
                   <p>GraphQL</p>
-                </div>
+                </div> */}
                 <div className="flex flex-col justify-center items-center mx-3 my-3 gap-1">
                   <img
                     className="hover:opacity-50 transition duration-500 h-7 w-8"
@@ -101,14 +118,14 @@ const MySkills = () => {
                   />
                   <p>ExpressJS</p>
                 </div>
-                <div className="flex flex-col justify-center items-center mx-3 my-3 gap-1">
+                {/* <div className="flex flex-col justify-center items-center mx-3 my-3 gap-1">
                   <img
                     className="hover:opacity-50 transition duration-500 h-7 w-8"
                     alt="postgresql-icon"
                     src="../assets/postgresql-logo.png"
                   />
                   <p>PostgreSQL</p>
-                </div>
+                </div> */}
                 <div className="flex flex-col justify-center items-center mx-3 my-3 gap-1">
                   <img
                     className="hover:opacity-50 transition duration-500 h-7 w-12"
@@ -117,14 +134,14 @@ const MySkills = () => {
                   />
                   <p>MySQL</p>
                 </div>
-                <div className="flex flex-col justify-center items-center mx-3 my-3 gap-1">
+                {/* <div className="flex flex-col justify-center items-center mx-3 my-3 gap-1">
                   <img
                     className="hover:opacity-50 transition duration-500 h-7 w-12"
                     alt="php-icon"
                     src="../assets/php-logo.png"
                   />
                   <p>PHP</p>
-                </div>
+                </div> */}
               </div>
               <div className="flex justify-start items-center mt-8">
                 <p className="font-playfair font-semibold text-lg mr-6 whitespace-nowrap">
@@ -219,19 +236,9 @@ const MySkills = () => {
                   src="../assets/expressjs-logo.png"
                 />
                 <img
-                  className="hover:opacity-50 transition duration-500 mx-1 h-7 w-8"
-                  alt="postgresql-icon"
-                  src="../assets/postgresql-logo.png"
-                />
-                <img
                   className="hover:opacity-50 transition duration-500 mx-1 h-7 w-12"
                   alt="mysql-icon"
                   src="../assets/mysql-logo.png"
-                />
-                <img
-                  className="hover:opacity-50 transition duration-500 mx-1 h-7 w-12"
-                  alt="php-icon"
-                  src="../assets/php-logo.png"
                 />
               </div>
               <div className="flex justify-between items-center mx-1 mt-8">
@@ -318,14 +325,14 @@ const MySkills = () => {
               </li>
               <li>+ 30 projets de sites web statiques (HTML, CSS, JS) </li>
               <li>
-                + 500.000 vues sur mon blog communautaire{" "}
-                <a
+                + 1 dating app React Native en cours de développement{" "}
+                {/* <a
                   href="www.surf-community.fr"
                   className="hover:text-red underline text-blue"
                 >
                   Surf-Community.fr
                 </a>{" "}
-                sur Wordpress (HTML, CSS, JS et PHP)
+                sur Wordpress (HTML, CSS, JS et PHP) */}
               </li>
             </ul>
           </p>
@@ -353,9 +360,7 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            Passionné par l'innovation (organisationnelle et de produit) et les
-            nouvelles technologies (IA, blockchain, réalité virtuelle), je mets
-            mes compétences au services de vos besoins.
+          Avec un Doctorat (PhD.) en Innovation et Management en santé, je mets à coeur à soutenir les acteurs qui encouragent le bien-être et l’épanouissement.
           </p>
         </motion.div>
         {/* IMAGINATIVE */}
@@ -380,9 +385,7 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            À côté de mes activités de développeur, je puise ma créativité dans
-            les activités qui me passionnent (sciences humaines, mathématiques
-            appliquées, économie, monde sportif, musique).
+          En plus de mes compétences de développeuse, je suis très attentive à l’expérience utilisateur et au design et je puise ma créativité dans mes voyages spatio (Polynésie française, Hong-Kong, Portugal) - temporels (romances historiques et musées).
           </p>
         </motion.div>
       </div>

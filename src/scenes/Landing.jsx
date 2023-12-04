@@ -50,20 +50,23 @@ const Landing = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="text-6xl font-playfair z-10 text-center md:text-start">
+          <p className="flex gap-2 justify-center my-4 text-2xl xs:text-5xl font-playfair z-10 text-center md:text-start">
             {/* {""} for the space ! */}
             Charlène {""}
             {/* Note : xs:before:content-brush is used for screens above XS and use the following source :  content => brush (cf: see tailwind.config.js) */}
             <span
               className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush
-              before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]"
+              before:absolute before:-left-[25px] before:-top-[90px] before:z-[-1]"
             >
-              Hoare
+              Hoareau
             </span>
           </p>
 
-          <p className="mt-10 mb-7 text-m text-center md:text-start font-bold">
-          Junior Front-end & Mobile Developper (React.js, React Native, iOS)
+          <p className="mt-11 text-m text-center md:text-start font-bold">
+          Junior Front-end & Mobile Developper
+          </p>
+          <p className="mb-7 text-m text-center md:text-start font-bold">
+          (React.js, React Native, iOS)
           </p>
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
             Après une première expérience personnelle de plus de 5 ans à gérer{" "}
@@ -80,16 +83,14 @@ const Landing = ({ setSelectedPage }) => {
             / Express / MongoDB / Node.
           </p>
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-          Actuellement Développeuse web  
+          Actuellement Développeuse web{" "}
           <a
               href="www.charlenehoareau.fr"
               className="hover:text-red underline text-blue"
             >
-               freelance
+                freelance
             </a>{" "}
           , je me charge du web design ainsi que du développement de sites (sites vitrines, e-commerces) pour des indépendants.
-          </p>
-          <p className="mt-10 mb-7 text-sm text-center md:text-start">
           J'ai également une forte appétence pour le développement mobile puisque je développe sur mon temps libre ma propre application mobile React Native et je vais intégrer la formation en Développement iOS de l’Apple Foundation Program, organisée par Simplon.co.
           </p>
         </motion.div>
