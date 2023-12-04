@@ -165,22 +165,6 @@ const MySkills = () => {
                 </div>
                 <div className="flex flex-col justify-center items-center mx-3 my-3 gap-1">
                   <img
-                    className="hover:opacity-50 transition duration-500 h-7 w-8"
-                    alt="gitlab-icon"
-                    src="../assets/gitlab-logo.png"
-                  />
-                  <p>GitLAB</p>
-                </div>
-                <div className="flex flex-col justify-center items-center mx-3 my-3 gap-1">
-                  <img
-                    className="hover:opacity-50 transition duration-500 h-7 w-12"
-                    alt="docker-icon"
-                    src="../assets/docker-logo.png"
-                  />
-                  <p>Docker</p>
-                </div>
-                <div className="flex flex-col justify-center items-center mx-3 my-3 gap-1">
-                  <img
                     className="hover:opacity-50 transition duration-500 h-7 w-12"
                     alt="bash-icon"
                     src="../assets/bash-logo.png"
@@ -197,6 +181,11 @@ const MySkills = () => {
                 </p>
                 <img
                   className="hover:opacity-50 transition duration-500 mx-1 h-7 w-8"
+                  alt="swift-icon"
+                  src="../assets/swift-icon.png"
+                />
+                <img
+                  className="hover:opacity-50 transition duration-500 mx-1 h-7 w-8"
                   alt="react-icon"
                   src="../assets/react-icon.png"
                 />
@@ -209,11 +198,6 @@ const MySkills = () => {
                   className="hover:opacity-50 transition duration-500 mx-1 h-7 w-8"
                   alt="redux-icon"
                   src="../assets/redux-logo.png"
-                />
-                <img
-                  className="hover:opacity-50 transition duration-500 mx-1 h-7 w-8"
-                  alt="graphql-icon"
-                  src="../assets/graphql-logo.png"
                 />
                 <img
                   className="hover:opacity-50 transition duration-500 mx-1 h-7 w-8"
@@ -254,16 +238,6 @@ const MySkills = () => {
                   className="contrast-300 hover:opacity-50 transition duration-500 mx-1 h-7 w-21"
                   alt="github-icon"
                   src="../assets/github-logo.png"
-                />
-                <img
-                  className="hover:opacity-50 transition duration-500 mx-1 h-7 w-8"
-                  alt="gitlab-icon"
-                  src="../assets/gitlab-logo.png"
-                />
-                <img
-                  className="hover:opacity-50 transition duration-500 mx-1 h-7 w-12"
-                  alt="docker-icon"
-                  src="../assets/docker-logo.png"
                 />
                 <img
                   className="hover:opacity-50 transition duration-500 mx-1 h-7 w-12"
