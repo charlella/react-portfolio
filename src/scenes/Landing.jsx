@@ -36,14 +36,9 @@ const Landing = ({ setSelectedPage }) => {
             /> */}
             {/* <img src="assets/iphone-image.gif"/> */}
             <img src={gifSrc} alt="GIF" />
-
           </div>
         ) : (
-          <img
-            alt="profile"
-            className="z-10 w-full max-w-[400px] md:max-w-[600px]"
-            src="assets/profile-image.png"
-          />
+          <img src={gifSrc} alt="GIF" />
         )}
       </div>
 
