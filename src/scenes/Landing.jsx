@@ -79,7 +79,7 @@ const Landing = ({ setSelectedPage }) => {
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
             Après une première expérience personnelle de plus de 5 ans à gérer{" "}
             <a
-              href="www.charleneonthebeach.com"
+              href="http://www.charleneonthebeach.com"
               className="hover:text-red underline text-blue"
             >
               un blog communautaire
@@ -93,7 +93,7 @@ const Landing = ({ setSelectedPage }) => {
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
           Actuellement Développeuse web{" "}
           <a
-              href="www.charlenehoareau.fr"
+              href="http://www.charlenehoareau.fr"
               className="hover:text-red underline text-blue"
             >
                 freelance
