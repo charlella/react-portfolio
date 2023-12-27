@@ -36,8 +36,18 @@ const MySkills = () => {
                     alt="swift-icon"
                     src="../assets/swift-icon.png"
                   />
-                  <div className="flex flex-row justify-center w-28">
+                  <div className="flex flex-row justify-center w-20">
                     <p>Swift</p>
+                  </div>
+                </div>
+                <div className="flex flex-col justify-center items-center my-3 gap-1">
+                  <img
+                    className="contrast-200 hover:opacity-50 transition duration-500 h-7 w-8"
+                    alt="swiftui-icon"
+                    src="../assets/swiftui-icon.png"
+                  />
+                  <div className="flex flex-row justify-center w-20">
+                    <p>SwiftUI</p>
                   </div>
                 </div>
                 <div className="flex flex-col justify-center items-center my-3 gap-1">
@@ -183,6 +193,11 @@ const MySkills = () => {
                   className="hover:opacity-50 transition duration-500 mx-1 h-7 w-8"
                   alt="swift-icon"
                   src="../assets/swift-icon.png"
+                />
+                <img
+                  className="hover:opacity-50 transition duration-500 mx-1 h-7 w-8"
+                  alt="swiftui-icon"
+                  src="../assets/swiftui-icon.png"
                 />
                 <img
                   className="hover:opacity-50 transition duration-500 mx-1 h-7 w-8"
