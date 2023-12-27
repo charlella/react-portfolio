@@ -99,16 +99,16 @@ const Projects = () => {
           <Project
             projectRef="Project 3"
             name="MeetMyPet"
-            title="Application disponible sur demande" 
+            title="Application en cours de développement" 
             description="Une Dating App pour animaux de compagnie (et leurs maîtres)"
             techstack="MERN (MongoDB, Express, React Native, Node)"
           />
           <Project
             projectRef="Project 4"
-            name="MyMoviz" 
-            href="https://mymoviz-frontend-beige.vercel.app/"
-            description="Un site web présentant le classement des films avec le plus de vote sur themoviedb.org"
-            techstack="MERN (MongoDB, Express, React, Node)"
+            name="Moviz Explorer" 
+            href="https://github.com/charlella/Moviz"
+            description="Une application qui permet d'explorer une vaste collection de séries à l'aide de l'API TVMaze. Les utilisateurs peuvent découvrir, rechercher et gérer facilement leurs séries préférées."
+            techstack="Swift - Swift UI"
           />
           <Project
             projectRef="Project 5"
@@ -121,9 +121,9 @@ const Projects = () => {
           {/* ROW 3 */}
           <Project
             projectRef="Project 6"
-            name="MyTwitter" 
-            // href="https://hackatweet-frontend.vercel.app/"
-            description="Un réseau social twitter-like pour tous"
+            name="MyMoviz" 
+            href="https://mymoviz-frontend-beige.vercel.app/"
+            description="Un site web présentant le classement des films avec le plus de vote sur themoviedb.org"
             techstack="MERN (MongoDB, Express, React, Node)"
           />
           <Project
