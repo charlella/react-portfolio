@@ -10,7 +10,7 @@ const Footer = () => {
             CHARLENE HOAREAU
           </p>
           <p className="font-playfair text-md text-yellow">
-            ©2023 HOAREAU. Tous droits réservés.
+            ©2024 HOAREAU. Tous droits réservés.
           </p>
         </div>
       </div>
