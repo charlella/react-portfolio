@@ -71,35 +71,38 @@ const Landing = ({ setSelectedPage }) => {
           </p>
 
           <p className="mt-11 text-m text-center md:text-start font-bold">
-          Junior Front-end & Mobile Developper
+          Junior iOS Developper
           </p>
           <p className="mb-7 text-m text-center md:text-start font-bold">
-          (React.js, React Native, iOS)
+          (Swift, SwiftUI)
           </p>
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            Après une première expérience personnelle de plus de 5 ans à gérer{" "}
+            Actuellement en stage chez{" "}
             <a
-              href="http://www.charleneonthebeach.com"
+              href="https://www.infomaniak.com/fr"
               className="hover:text-red underline text-blue"
             >
-              un blog communautaire
+              Infomaniak
             </a>{" "}
-            sur Wordpress (<b>HTML, CSS, JS et PHP</b>), j'ai décidé de me
-            reconvertir en 2023 avec La Capsule, une formation intensive (+400
-            heures) labelisée Grande Ecole du Numérique : "Développeur Fullstack
-            JS web & mobile" (titre RNCP 6 (bac+3/+4)) sur la stack MERN : React / React Native
-            / Express / MongoDB / Node.
+            je contribue au développement d'applications mobiles iOS telles que kMail (<b>SwiftUI</b>), kDrive (<b>UIKit</b>) et SwissTransfer (<b>SwiftUI/KMP</b>), je recherche désormais un poste de développeuse iOS. Titulaire du titre RNCP 6 de Développeur-Concepteur d'applications web et mobile, j’ai également suivi la formation proposée par l'Apple Foundation Program afin d’y recueillir les meilleures pratiques de développement.
           </p>
+
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-          Actuellement Développeuse web{" "}
+          J’ai également développé à titre personnel deux projets d'application SwiftUI dénommée {" "}
           <a
-              href="http://www.charlenehoareau.fr"
+              href="https://github.com/charlella/Moviz"
               className="hover:text-red underline text-blue"
             >
-                freelance
+                Moviz Explorer
             </a>{" "}
-          , je me charge du web design ainsi que du développement de sites (sites vitrines, e-commerces) pour des indépendants.
-          J'ai également une forte appétence pour le développement mobile puisque je développe sur mon temps libre ma propre application mobile React Native et je vais intégrer la formation en Développement iOS de l’Apple Foundation Program, organisée par Simplon.co.
+          et {" "}  
+          <a
+              href="https://github.com/charlella/StartEnVille"
+              className="hover:text-red underline text-blue"
+            >
+                Start en Ville
+            </a>{" "}
+            dont vous retrouverez les informations au sein des répertoires GitHub dédiés. En effet, je suis passionnée par l'apprentissage continu dans ce domaine et j'ai toujours un projet d'application en cours de développement sur mon temps libre. Enfin, ma curiosité me porte à découvrir d'autres langages web et  mobile (JavaScript et sa bibliothèque React, Next.js ainsi que React Native).
           </p>
         </motion.div>
 
