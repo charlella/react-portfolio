@@ -84,7 +84,7 @@ const Landing = ({ setSelectedPage }) => {
             >
               Infomaniak
             </a>{" "}
-            je contribue au développement d'applications mobiles iOS telles que kMail (<b>SwiftUI</b>), kDrive (<b>UIKit</b>) et SwissTransfer (<b>SwiftUI/KMP</b>), je recherche désormais un poste de développeuse iOS. Titulaire du titre RNCP 6 de Développeur-Concepteur d'applications web et mobile, j’ai également suivi la formation proposée par l'Apple Foundation Program afin d’y recueillir les meilleures pratiques de développement.
+            je contribue au développement d'applications mobiles iOS telles que kMail (<b>SwiftUI</b>), kDrive (<b>UIKit</b>) et SwissTransfer (<b>SwiftUI/KMP</b>). Titulaire du titre RNCP 6 de Développeur-Concepteur d'applications web et mobile, j’ai également suivi la formation proposée par l'Apple Foundation Program afin d’y recueillir les meilleures pratiques de développement.
           </p>
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
