@@ -9,7 +9,7 @@ const Testimonials = () => {
     <section id="témoignages" className="pt-32 pb-16">
       {/* HEADING */}
       <motion.div
-        className="md:w-1/3 text-center md:text-left"
+        className="md:w-1/3 text-center md:text-center"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.5 }}
